@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 
 JSON_QUESTION_PATH = Path(
-    "./questions.json"
+    "/content/Fish_Dataset/questions.json"
 )
 
 
