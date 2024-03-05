@@ -19,5 +19,17 @@
         "right_choice_list": [
             "Non le réseau a sûrement appris par coeur les données sans comprendre les informations intrinsèques aux images de poisson"
         ]
+    },
+    "3": {
+        "question": "Combien d'images par classe maintenant ?",
+        "choice_list": [
+            "50000",
+            "3490",
+            "6500",
+		"8000"
+        ],
+        "right_choice_list": [
+            "3490"
+        ]
     }
 }
