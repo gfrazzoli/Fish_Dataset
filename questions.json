@@ -8,5 +8,16 @@
         "question": "Combien a-t-on d'exemples d'images de Rouget ?",
         "choice_list": ["256", "2000", "1000", "8 Millions 6"],
         "right_choice_list": ["1000"]
+    },
+    "2": {
+        "question": "Est-ce normal pour notre modèle d'avoir une précision aussi parfaite ?",
+        "choice_list": [
+            "Oui car je suis trop fort",
+            "Oui ça peut être normal car les poids du réseau se calculent au hasard",
+            "Non le réseau a sûrement appris par coeur les données sans comprendre les informations intrinsèques aux images de poisson"
+        ],
+        "right_choice_list": [
+            "Non le réseau a sûrement appris par coeur les données sans comprendre les informations intrinsèques aux images de poisson"
+        ]
     }
 }
