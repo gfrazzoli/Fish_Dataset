@@ -15,12 +15,10 @@
             "Oui c'est possible grâce à une combinaison parfaites d'hyperparamètres",
 	    "Non un réseau ne neurones ne peut pas être aussi compétent",
             "Oui ça peut être normal car les poids du réseau se calculent au hasard",
-            "Non le réseau a sûrement appris par coeur les données sans comprendre les informations intrinsèques aux deux espèces de poisson"
+            "Non le réseau a sûrement appris par coeur les données sans absorber les informations intrinsèques aux deux espèces de poisson"
 	    
         ],
-        "right_choice_list": [
-            "Non le réseau a sûrement appris par coeur les données sans absorber les informations intrinsèques aux deux espèces de poisson"
-        ]
+        "right_choice_list": ["Non le réseau a sûrement appris par coeur les données sans absorber les informations intrinsèques aux deux espèces de poisson"]
     },
     "3": {
         "question": "Combien d'images par classe maintenant ?",
