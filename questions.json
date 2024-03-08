@@ -1,8 +1,8 @@
 {
     "0": {
         "question": "Quels problèmes cela va-t-il poser ?",
-        "choice_list": ["Notre modèle sera trop performant.", "Un manque de diversité dans les exemples réduit la capacité d'apprentissage du modèle.", "Aucuns problèmes", "Réponse D"],
-        "right_choice_list": ["Un manque de diversité dans les exemples réduit la capacité d'apprentissage du modèle."]
+        "choice_list": ["Notre modèle risque d'être trop performant", "Un manque de diversité dans les exemples réduit la capacité d'apprentissage", "Aucun problèmes", "Le modèle sera incapable d'extrapoler sur des images différentes de nos données"],
+        "right_choice_list": ["Un manque de diversité dans les exemples réduit la capacité d'apprentissage du modèle","Le modèle sera incapable d'extrapoler sur des images différentes de nos données"]
     },
     "1": {
         "question": "Combien a-t-on d'exemples d'images de Rouget ?",
@@ -12,12 +12,14 @@
     "2": {
         "question": "Est-ce normal pour notre modèle d'avoir une précision aussi parfaite ?",
         "choice_list": [
-            "Oui car je suis trop fort",
+            "Oui c'est possible grâce à une combinaison parfaites d'hyperparamètres",
+	    "Non un réseau ne neurones ne peut pas être aussi compétent",
             "Oui ça peut être normal car les poids du réseau se calculent au hasard",
-            "Non le réseau a sûrement appris par coeur les données sans comprendre les informations intrinsèques aux images de poisson"
+            "Non le réseau a sûrement appris par coeur les données sans comprendre les informations intrinsèques aux deux espèces de poisson"
+	    
         ],
         "right_choice_list": [
-            "Non le réseau a sûrement appris par coeur les données sans comprendre les informations intrinsèques aux images de poisson"
+            "Non le réseau a sûrement appris par coeur les données sans absorber les informations intrinsèques aux deux espèces de poisson"
         ]
     },
     "3": {
@@ -26,10 +28,34 @@
             "50000",
             "3490",
             "6500",
-		"8000"
+	    "8000"
         ],
         "right_choice_list": [
             "3490"
+        ]
+    },
+    "4": {
+        "question": "Quelle(s) conséquence(s) pour notre classification de poisson ?",
+        "choice_list": [
+            "Deux fois plus de paramètres donc deux fois plus de précision",
+            "Un temps plus long d'entraînement",
+            "Deux fois plus de paramètres donc deux fois plus rapide",
+	    "Possiblement une meilleure capacité d'apprentissage de notre réseau"
+        ],
+        "right_choice_list": [
+            "Un temps plus long d'entraînement","Possiblement une meilleure capacité d'apprentissage de notre réseau"
+        ]
+    },
+    "5": {
+        "question": "Combien de paramètres à notre réseau ?",
+        "choice_list": [
+            "1009018",
+            "15488",
+            "991296",
+	    "On sait pas"
+        ],
+        "right_choice_list": [
+            "1009018"
         ]
     }
 }
