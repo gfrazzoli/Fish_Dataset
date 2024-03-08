@@ -2,7 +2,7 @@
     "0": {
         "question": "Quels problèmes cela va-t-il poser ?",
         "choice_list": ["Notre modèle risque d'être trop performant", "Un manque de diversité dans les exemples réduit la capacité d'apprentissage", "Aucun problèmes", "Le modèle sera incapable d'extrapoler sur des images différentes de nos données"],
-        "right_choice_list": ["Un manque de diversité dans les exemples réduit la capacité d'apprentissage du modèle","Le modèle sera incapable d'extrapoler sur des images différentes de nos données"]
+        "right_choice_list": ["Un manque de diversité dans les exemples réduit la capacité d'apprentissage","Le modèle sera incapable d'extrapoler sur des images différentes de nos données"]
     },
     "1": {
         "question": "Combien a-t-on d'exemples d'images de Rouget ?",
