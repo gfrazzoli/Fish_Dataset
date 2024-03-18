@@ -1,39 +1,40 @@
 {
     "0": {
         "question": "Quels problèmes cela va-t-il poser ?",
-        "choice_list": ["Notre modèle risque d'être trop performant", "Un manque de diversité dans les exemples réduit la capacité d'apprentissage", "Aucun problèmes", "Le modèle sera incapable d'extrapoler sur des images différentes de nos données"],
+        "choice_list": [
+	"Notre modèle risque d'être trop performant", 
+	"Un manque de diversité dans les exemples réduit la capacité d'apprentissage", 
+	"Aucun problèmes", "Le modèle sera incapable d'extrapoler sur des images différentes de nos données"],
         "right_choice_list": ["Un manque de diversité dans les exemples réduit la capacité d'apprentissage","Le modèle sera incapable d'extrapoler sur des images différentes de nos données"]
     },
     "1": {
         "question": "Combien a-t-on d'exemples d'images de Rouget ?",
-        "choice_list": ["256", "2000", "1000", "8 Millions 6"],
+        "choice_list": ["256", "2000", "1000", "3000"],
         "right_choice_list": ["1000"]
     },
     "2": {
-        "question": "Est-ce normal pour notre modèle d'avoir une précision aussi parfaite ?",
+        "question": "Quelles conclusions peut-on tirer de ces résultats ?",
         "choice_list": [
-            "Oui c'est possible grâce à une combinaison parfaites d'hyperparamètres",
-	    "Non un réseau ne neurones ne peut pas être aussi compétent",
-            "Oui ça peut être normal car les poids du réseau se calculent au hasard",
-            "Non le réseau a sûrement appris par coeur les données sans absorber les informations intrinsèques aux deux espèces de poisson"
-	    
+            "Nous avons trouvé une combinaison parfaite d'hyperparamètres",
+	    "Le réseau a certainement appris par coeur les données",
+            "Notre réseau est extrêmement performant",   
         ],
-        "right_choice_list": ["Non le réseau a sûrement appris par coeur les données sans absorber les informations intrinsèques aux deux espèces de poisson"]
+        "right_choice_list": ["Le réseau a certainement appris par coeur les données"]
     },
     "3": {
-        "question": "Combien d'images par classe maintenant ?",
+        "question": "Combien d'images a-t-on par classe maintenant ?",
         "choice_list": [
-            "50000",
+            "5000",
             "3490",
             "6500",
-	    "8000"
+	    "4040"
         ],
         "right_choice_list": [
             "3490"
         ]
     },
     "4": {
-        "question": "Quelle(s) conséquence(s) pour notre classification de poisson ?",
+        "question": "Quelle(s) implication(s) pour notre classification de poisson ?",
         "choice_list": [
             "Deux fois plus de paramètres donc deux fois plus de précision",
             "Un temps plus long d'entraînement",
@@ -45,7 +46,7 @@
         ]
     },
     "5": {
-        "question": "Combien de paramètres à notre réseau ?",
+        "question": "Combien de paramètres dans notre réseau ?",
         "choice_list": [
             "1009018",
             "15488",
