@@ -13,12 +13,8 @@
         "right_choice_list": ["1000"]
     },
     "2": {
-        "question": "Quelles conclusions peut-on tirer de ces résultats ?",
-        "choice_list": [
-            "Nous avons trouvé une combinaison parfaite d'hyperparamètres",
-	    "Le réseau a certainement appris par coeur les données",
-            "Notre réseau est extrêmement performant",   
-        ],
+        "question": "Quelle conclusion peut-on tirer de ces résultats ?",
+        "choice_list": ["Nous avons trouvé une combinaison parfaite d'hyperparamètres","Le réseau a certainement appris par coeur les données","Notre réseau est extrêmement performant"],
         "right_choice_list": ["Le réseau a certainement appris par coeur les données"]
     },
     "3": {
@@ -27,8 +23,7 @@
             "5000",
             "3490",
             "6500",
-	    "4040"
-        ],
+	    "4040"],
         "right_choice_list": [
             "3490"
         ]
@@ -39,22 +34,12 @@
             "Deux fois plus de paramètres donc deux fois plus de précision",
             "Un temps plus long d'entraînement",
             "Deux fois plus de paramètres donc deux fois plus rapide",
-	    "Possiblement une meilleure capacité d'apprentissage de notre réseau"
-        ],
-        "right_choice_list": [
-            "Un temps plus long d'entraînement","Possiblement une meilleure capacité d'apprentissage de notre réseau"
-        ]
+	    "Possiblement une meilleure capacité d'apprentissage de notre réseau"],
+        "right_choice_list": ["Un temps plus long d'entraînement","Possiblement une meilleure capacité d'apprentissage de notre réseau"]
     },
     "5": {
         "question": "Combien de paramètres dans notre réseau ?",
-        "choice_list": [
-            "1009018",
-            "15488",
-            "991296",
-	    "On sait pas"
-        ],
-        "right_choice_list": [
-            "1009018"
-        ]
+        "choice_list": ["1009018","15488","991296","On sait pas"],
+        "right_choice_list": ["1009018"]
     }
 }
